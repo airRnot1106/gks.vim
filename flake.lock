@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "goda-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1794025432,
+        "narHash": "sha256-o/mmMjAEQ14jYYj0SNc//QKh7i/MniMayClJtVtAqiI=",
+        "owner": "Shougo",
+        "repo": "goda.vim",
+        "rev": "8399891df7fd77eee0473003201f9960dfbd8ebb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Shougo",
+        "ref": "v0.7.2",
+        "repo": "goda.vim",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1793826729,
+        "narHash": "sha256-D5H7H+qMoTGI/jJtxKP4u7BdjkFnUyhOovTrf3pTOr0=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "6dadaf4375be35033e1c84395adbd53ff5fded96",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "goda-vim": "goda-vim",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

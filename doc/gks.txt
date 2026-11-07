@@ -1,0 +1,107 @@
+*gks.txt*	Romaji search for Japanese text on goda.vim
+
+==============================================================================
+INTRODUCTION						*gks* *kensaku*
+
+gks.vim turns romaji into a regular expression that matches Japanese
+text. It is a port of kensaku.vim from denops.vim to goda.vim, and defines the
+same functions and variables, so kensaku-search.vim works without changes.
+
+==============================================================================
+INSTALL						*gks-install*
+
+gks.vim needs goda.vim, Vim 9.1 with |+job| and |+channel| or Neovim
+0.11, and either Nix or Go 1.26 to build the binary. Windows is not supported.
+
+With vim-plug:
+>
+	Plug 'Shougo/goda.vim'
+	Plug 'airRnot1106/gks.vim', { 'do': 'nix build' }
+<
+Without Nix, run this in the plugin directory. The binary lands at
+bin/gks.
+>
+	go build -o bin/gks .
+<
+The binary is looked up in this order: |g:gks_binary|, bin/gks and
+result/bin/gks in the plugin directory.
+
+The dictionary is a data file under the GPL and is not in this repository. A
+Nix build fetches it once and keeps it at
+result/share/gks/migemo-compact-dict, so a query needs no network.
+Without Nix, the first query downloads it to |g:kensaku_dictionary_cache|.
+
+==============================================================================
+VARIABLES						*kensaku-variables*
+
+							*g:gks_binary*
+g:gks_binary
+	Path of the binary. Unset by default.
+
+						*g:kensaku_dictionary_url*
+g:kensaku_dictionary_url
+	URL of the dictionary. After changing it, delete the file at
+	|g:kensaku_dictionary_cache|.
+
+						*g:kensaku_dictionary_cache*
+g:kensaku_dictionary_cache
+	Path of the dictionary. The default is the file of the Nix build when
+	it exists, and "~/.cache/kensaku.vim/migemo-compact-dict" otherwise.
+	Set it before the plugin is loaded.
+
+							*g:kensaku#rxop#vim*
+							*g:kensaku#rxop#javascript*
+g:kensaku#rxop#vim
+g:kensaku#rxop#javascript
+	Presets of the "rxop" option of |kensaku#query()|.
+
+==============================================================================
+FUNCTIONS						*kensaku-functions*
+
+							*kensaku#query()*
+kensaku#query({value} [, {option}])
+	Return the regular expression for the romaji {value}. {option} is a
+	|Dictionary|:
+
+	"rxop"	The symbols of the regular expression. A dictionary with the
+		keys below, or the list [or, startGroup, endGroup, startClass,
+		endClass, newline] with an optional prefix in front.
+		Default: |g:kensaku#rxop#vim|
+
+		prefix		Put before the expression. Optional.
+		or		The alternation operator.
+		startGroup	The start of a group.
+		endGroup	The end of a group.
+		startClass	The start of a character class.
+		endClass	The end of a character class.
+		newline		Put between characters.
+		escape		The ASCII characters to escape with a backslash.
+>
+	let @/ = kensaku#query('kensaku')
+	normal! n
+<
+							*kensaku#query_async()*
+kensaku#query_async({value}, {success} [, {option}])
+	As |kensaku#query()|, giving the result to the function {success}.
+	{option} also takes "failure", a function that receives the error.
+	The default "failure" raises it.
+
+						*kensaku#set_roman_table()*
+kensaku#set_roman_table({romanTable})
+	Replace the roman table. {romanTable} is a list of [roman, hiragana]
+	and [roman, hiragana, remain]. After a rule applies, the last "remain"
+	characters of roman stay in the input.
+>
+	call kensaku#set_roman_table([
+	      \ ['qq', 'っ', 1],
+	      \ ['kz', 'かん', 0],
+	      \])
+<
+							*kensaku#config()*
+kensaku#config()
+	Return the dictionary and the roman table in the form the Go package
+	"migemo" of this plugin takes. A plugin that links the package
+	passes it to its binary, as gfm.vim does.
+
+==============================================================================
+vim:tw=78:ts=8:noet:ft=help:norl:
