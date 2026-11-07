@@ -1,0 +1,814 @@
+{
+ "plain": [
+  {
+   "query": "a",
+   "vim": "727a2f4c38098758e14704172031a37c2db1f31b5da795f8fd2bc624c73f7cae",
+   "vimLength": 1712,
+   "javascript": "ef64d999b5eb877788c3b3c5a564aeb6c48febd6d84016cfe9a0016923dc0b68",
+   "javascriptLength": 1483
+  },
+  {
+   "query": "k",
+   "vim": "4231d50d110f4245b09e345e6ed98059e552336af4110cbb24f163824ebe30ce",
+   "vimLength": 3408,
+   "javascript": "f3013ca9d67354a5f0ed302bfcca756081c2fb40e536f3b5c6c556dccca8a7a5",
+   "javascriptLength": 3193
+  },
+  {
+   "query": "n",
+   "vim": "765d318ebcefd36ba8cc519f296c35eb516130121c4edd1951841e1f2309b3ef",
+   "vimLength": 1150,
+   "javascript": "806d1f6f8908f0ed7a6f350d700a299bc29243cf1695ce745adbc9ec659d10da",
+   "javascriptLength": 1035
+  },
+  {
+   "query": "ka",
+   "vim": "c213838fc0582749ef3e51bfef9ad79bfa622520771ae22f14800220b8dd2786",
+   "vimLength": 1381,
+   "javascript": "96f0cbe32ecc4e92700c9fb6312d557a95f176ea79cbd7df33b7501f573a7e2a",
+   "javascriptLength": 1269
+  },
+  {
+   "query": "ky",
+   "vim": "15a81db47ec4f1dac7a04dfb2643f57eb859f4fba7729df92352717f6dad011e",
+   "vimLength": 397,
+   "javascript": "64268f31c2c3d053292bc9933f226073a920a998b9a12241bafe076290918b45",
+   "javascriptLength": 356
+  },
+  {
+   "query": "sh",
+   "vim": "e027a28c4ed85ac3fb10737f35734ff9bc9588b6efe110c989fe09eca327c4fb",
+   "vimLength": 1500,
+   "javascript": "8967fcd7864caa3ea03e4fd1de0bf7a53eb29d1bd2d018a623f3cf0b3bd0848b",
+   "javascriptLength": 1387
+  },
+  {
+   "query": "tsu",
+   "vim": "c033052f910a165df7a37d6c05fe7e02432889c0867b1111ffbc8884f6c1b668",
+   "vimLength": 512,
+   "javascript": "813a70c62d8689e0238600d3df590aea319d09e10541ae355bc129d5f1fa805f",
+   "javascriptLength": 461
+  },
+  {
+   "query": "nihongo",
+   "vim": "cca28c20254b2e3c3b5e3a6071da22a92ea2987935c1569a368907f2247eb2b1",
+   "vimLength": 63,
+   "javascript": "3ad685a5aaf37ab2702a5695b53d81e148c63b4c929884e122956d29a05da5de",
+   "javascriptLength": 52
+  },
+  {
+   "query": "nihon",
+   "vim": "104bc097416115141ae3f29ebca99bd7a33cb9dd4a4216ecd27bf6ef9b278d7b",
+   "vimLength": 66,
+   "javascript": "f8c2b5912913521d46b5684fc78957a8aeb99274e7014f33ac8edd1f86ece83f",
+   "javascriptLength": 56
+  },
+  {
+   "query": "nihonn",
+   "vim": "bdd762f551d6f9bb47383ad4eb7b12e2121cb27248e44b7f1e3eb6fd4b6487d6",
+   "vimLength": 47,
+   "javascript": "4ff78bd137ed0685d80e7c961f74dda9163a7ed5e47cf1e31de6cc391c6fdfb2",
+   "javascriptLength": 37
+  },
+  {
+   "query": "kensaku",
+   "vim": "db9906fbf17d9720513029683290812b864e15d114be86044166dad5d3528245",
+   "vimLength": 68,
+   "javascript": "89e3bd46e454473b063d11ba627a9ec8aacb36a91f00235a284c5a4337b2cf47",
+   "javascriptLength": 55
+  },
+  {
+   "query": "kanji",
+   "vim": "ec7e41d68cdf83e8237378cb4b37d28f7130e1ba45b26e8454efd676289b6027",
+   "vimLength": 251,
+   "javascript": "1eee42642377535877e08952c1c2a84d615d93357faf834980c2cf7cb2f1d49e",
+   "javascriptLength": 205
+  },
+  {
+   "query": "katakana",
+   "vim": "12a5e2dc6458c3ff2b056d944d6d71ee41a9d7c0bb59faf10c28cf62ebc58c29",
+   "vimLength": 57,
+   "javascript": "29514f19b554cffc457d00114cae4c75442d585ec80c94e3019e8e761982b7ce",
+   "javascriptLength": 47
+  },
+  {
+   "query": "hiragana",
+   "vim": "3cdd136858eba4040ab68800b967ae708ead00ad4d2d6220e0d236eea8d2d219",
+   "vimLength": 58,
+   "javascript": "5984d6177c5b6424ca29a13ea6fae0efe816ad611db38bd9843be7f0130c5856",
+   "javascriptLength": 48
+  },
+  {
+   "query": "tokyo",
+   "vim": "80f308dc9e0ca3bdc268b0d3d4140f83283923511099ae3803887f65819b0a46",
+   "vimLength": 50,
+   "javascript": "8c67c280f7c6dd180c21f9273fe743cfc352b1ba6e174c3631e6cf7af9738020",
+   "javascriptLength": 40
+  },
+  {
+   "query": "toukyou",
+   "vim": "d1409734cf7f6c1355797e7659c506a2cf966b3c7f73048d84cc4e336a346aa8",
+   "vimLength": 56,
+   "javascript": "3b85705ce928400ce6317b732e1375511dc0253a03daebbd499a71a51f19ef8b",
+   "javascriptLength": 47
+  },
+  {
+   "query": "kyouto",
+   "vim": "789c8bc0fd82c01e86033eee310bdc6bc50d88e842438be59dfefd6e20df05b5",
+   "vimLength": 79,
+   "javascript": "b235721ca3be13e781662fa72506585d9d10f54ca8ff7ad6bfe6f10d0e9c366e",
+   "javascriptLength": 64
+  },
+  {
+   "query": "osaka",
+   "vim": "a04bb55849b0aaae2021081c756da7d7641d1f015419594718d40030ed38ba57",
+   "vimLength": 54,
+   "javascript": "5b4820b3fac2d50f72f6436061ab4246c9dc96b3f5a8fa1146620d46b1f6552a",
+   "javascriptLength": 42
+  },
+  {
+   "query": "oosaka",
+   "vim": "c41ada8670820342eb7b8ab80c0856a7d13ef74223fd956aa9bb758106d66d82",
+   "vimLength": 50,
+   "javascript": "7065e18f6dccd7d9261953b8a4bb8fdb7a2a43f89206c99f23fc83291fc175dd",
+   "javascriptLength": 41
+  },
+  {
+   "query": "gakkou",
+   "vim": "156cc7b7218595059ab5deabb09a9e750ec0a07a68e935f81f72a024dca14f06",
+   "vimLength": 53,
+   "javascript": "c85d31e85f509805110eb2358f86bbb401f7e5739634f93d26c1eaca2ef4dff6",
+   "javascriptLength": 43
+  },
+  {
+   "query": "kitte",
+   "vim": "7d4f947b1c5282d7a474e50ff32ce9031c9fbbe4bbc8bd49abf14aa39f7be957",
+   "vimLength": 44,
+   "javascript": "dd620bfce7758ea1111b0cf6c5833f55ba3198cf9855aec227e2041d61d42cac",
+   "javascriptLength": 35
+  },
+  {
+   "query": "matcha",
+   "vim": "f02c1981b9b2c99bedbf4857c280d6b345e7ccba9c79b425c90bf4a7d8dc575d",
+   "vimLength": 39,
+   "javascript": "7ab39cf78a6c789bda98f719ce6f9ed46a0603206e82f741511ccbe2a1833ba1",
+   "javascriptLength": 32
+  },
+  {
+   "query": "shinkansen",
+   "vim": "033d72c6c179e4f5601c6c0a88055d92d84cb0ea81dbc31a21348ddeb3967210",
+   "vimLength": 89,
+   "javascript": "42573d390216d592ab475dd6c6f829ed66c058b8e1bbce65be908b3c3979a695",
+   "javascriptLength": 79
+  },
+  {
+   "query": "konnichiha",
+   "vim": "d60d5c69b70ea8f492b52bea10d7a3b70cb58443c9ffe2ab78d5cd3536425207",
+   "vimLength": 50,
+   "javascript": "0ec6467bddd2d02559ee6df9ee4a92ae9c3ef8e71e73bffb313e8c394d6701c9",
+   "javascriptLength": 43
+  },
+  {
+   "query": "arigatou",
+   "vim": "07e3570e261a6a9689abc013c1657695dffa8b6568b2d2b8e709abe9ea2dc01e",
+   "vimLength": 62,
+   "javascript": "204b287ad0658a077cdad4050491689e370c5e3f002f6bf89d2e7d25f3befc58",
+   "javascriptLength": 52
+  },
+  {
+   "query": "sayounara",
+   "vim": "5ede79f4d72b0b6a4f47d63a1ff986e47fbaf14c03839e25b40e7c081a087abc",
+   "vimLength": 54,
+   "javascript": "a0768ca6f901dafdb2beda4d5fc34ec1690e026a0dbbe7757e4c16b322530cdd",
+   "javascriptLength": 46
+  },
+  {
+   "query": "ohayou",
+   "vim": "0b708f328b1561d027c9ce2f546738c93b21be3ccc57701b17d5e33c16d30994",
+   "vimLength": 48,
+   "javascript": "21c32e11311d605f0e6461c40157e4480c08471afc805ad6ccc957d13e3b70fa",
+   "javascriptLength": 39
+  },
+  {
+   "query": "tenki",
+   "vim": "dcb36f0b71a94d2c054586d044f2cc614eec2f6fe09bd336821432f9fec25128",
+   "vimLength": 67,
+   "javascript": "c91e68afd6abb73438b06304bcdb2599364c9e51e0eb7f194e626a7e682331e2",
+   "javascriptLength": 55
+  },
+  {
+   "query": "kaigi",
+   "vim": "ef416cb2e5ccb201b433222e851bdd2d8fee64d28c5864cb7f641cb670cd343a",
+   "vimLength": 91,
+   "javascript": "abfd59a21ba13a9d669d98be9bc186f205e762d16d9e68d9e533f2882d1f9d3e",
+   "javascriptLength": 71
+  },
+  {
+   "query": "shiryou",
+   "vim": "b0737ef23b4b1d1af336c1d3fed4d7695ab358fd2109084bc72a19fc197238eb",
+   "vimLength": 77,
+   "javascript": "475351e230697e37640a1dae0df64c08ab08a276572a05cd986cdf40392ebe99",
+   "javascriptLength": 62
+  },
+  {
+   "query": "sakura",
+   "vim": "c57573e49c075f475a3fcd6bb7b9885041a9e39b34f52cd61d678077410e9b2b",
+   "vimLength": 79,
+   "javascript": "f9f2e2eed241862b2aaa49ed8603f87b49b8b7583140dc20a68e0be46cee3f8d",
+   "javascriptLength": 64
+  },
+  {
+   "query": "fuji",
+   "vim": "c637c4eaac977d50ed1ab09fc2f288c7242bcfff001299d3c87fe78c3a6b2e03",
+   "vimLength": 145,
+   "javascript": "e62965f36bcedc1e83f24439925b1335f5dde8df7745f221ed0a07a41a29e892",
+   "javascriptLength": 117
+  },
+  {
+   "query": "yama",
+   "vim": "fbd300d9562c57a769bfa30cad6b86a182708aeb6e6f2310a2f5136a82a76b69",
+   "vimLength": 205,
+   "javascript": "780d4fc7cda19e236b7bd740b10cb2ffcc4f13093807357742a35816cf481c67",
+   "javascriptLength": 172
+  },
+  {
+   "query": "kawa",
+   "vim": "970ad6bd7be3e1b664a0522309a626c16ce3d6a0c2a96a6fe1959cd6ef541f36",
+   "vimLength": 103,
+   "javascript": "b0613185bd1d644685de0f21ef71b6b4ea171c07087ce04e27bb2cb157ee0dc0",
+   "javascriptLength": 87
+  },
+  {
+   "query": "umi",
+   "vim": "5d376af7a86f854ce656b3cddcce992e7187337b356bb8f78f6b99abd6b721a7",
+   "vimLength": 69,
+   "javascript": "a0a4971c3cdffe4b8ae9442ff545568e1c019c30e7fbbcf5d6243d84d57f168d",
+   "javascriptLength": 55
+  },
+  {
+   "query": "denwa",
+   "vim": "c209c41c3c680ef7547e68751f1b91f1fabda9bfb6b44924cb5174ac89d49cb5",
+   "vimLength": 39,
+   "javascript": "7ece1148a86f83cdce30ba0b4359067287e49f289665f7ec4969d8854118fdb1",
+   "javascriptLength": 31
+  },
+  {
+   "query": "bangou",
+   "vim": "326c50bb23f19d698ea3207260311c7b56fddc52a28d2f7160a83e8274244fe1",
+   "vimLength": 45,
+   "javascript": "8d4b4847e9fb3061bfa265a4b3554f7e40b2777c94f89029ed4dec921c96691c",
+   "javascriptLength": 37
+  },
+  {
+   "query": "jikan",
+   "vim": "b07af86c6e2f2aecc25cf8d9be735d33f7798be1fb2a194e48942f4f5cb996db",
+   "vimLength": 79,
+   "javascript": "da660f9406abb7e7579a8f59ea6c88c0006f7c968b350a11316be0548345c3ea",
+   "javascriptLength": 67
+  },
+  {
+   "query": "benkyou",
+   "vim": "0ba7a604c9ce103b58b547c7e47b1a10236813aac63635ecb4e9494994bd8300",
+   "vimLength": 49,
+   "javascript": "f9f94e61666beb3bbce565dd71946333eeb80394cac02722f2bc6ce4ae0943ee",
+   "javascriptLength": 41
+  },
+  {
+   "query": "Nihongo",
+   "vim": "b5d43d763256d7dc59d3d1d79eb25f93356f02e6dcb84e980f2367bda55131cb",
+   "vimLength": 63,
+   "javascript": "def5b7d2f2aeacdf728eba5fd7075588583bb4bcf746e23c05eb979456701b31",
+   "javascriptLength": 52
+  },
+  {
+   "query": "NihonGo",
+   "vim": "08b459cbf6ef66709d4a3a5ab5ec62b56de0cdeee4c3c06dab0d3431e65f6586",
+   "vimLength": 598,
+   "javascript": "be70f5b098d413662bab581232e83d6ede3b93b8c3707f1e427c9ec496826d06",
+   "javascriptLength": 512
+  },
+  {
+   "query": "KENSAKU",
+   "vim": "c158ffa7f48a72b5a7e58fb1265ad8dab5d564790ad0c0abfc58a2d2e03dae78",
+   "vimLength": 68,
+   "javascript": "a6929d156c3cf434b9c003196136c3dc1d5c51b2427f2a4fc9db665383626fcf",
+   "javascriptLength": 55
+  },
+  {
+   "query": "HogeFuga",
+   "vim": "df5cd1e51d6f89f7dd2969fd21efb9ae8982f9f2a394351bcbb94d0e7a9ebe09",
+   "vimLength": 94,
+   "javascript": "0d0753599863b49ced5f1f45fc61fea82c6d1faf1fb75104a89b4c56f7b9f116",
+   "javascriptLength": 74
+  },
+  {
+   "query": "a b",
+   "vim": "6a9d94d081de9ae84c92cc0756286362f2753424982c147638450cbc25f5d9fa",
+   "vimLength": 2861,
+   "javascript": "5b2bc9e77d47898e544303be45d903a09835a98ef0579fda9bc37fd75768fdd2",
+   "javascriptLength": 2518
+  },
+  {
+   "query": "foo.bar",
+   "vim": "c7fd32182a63628e8632b771edc5e0bd7dfdb4e2ed42cad5d2aa46e1e75bdef3",
+   "vimLength": 70,
+   "javascript": "963755acccde72c20686f10b7c090692820a8260acc57fb08b134d9b1eb729c1",
+   "javascriptLength": 63
+  },
+  {
+   "query": "c++",
+   "vim": "aa9e78d51200d249b10f0ab2bcd54d728b0ec7d4df6d7267104e8515b613e070",
+   "vimLength": 25,
+   "javascript": "5bdff9872af36c0819a38a44d82617e191210b1309a314d2a6410017f10ea217",
+   "javascriptLength": 23
+  },
+  {
+   "query": "日本",
+   "vim": "d338fade885547b851c2577e17cef7c52468438a3eefe8fbe3228c6af5531892",
+   "vimLength": 4,
+   "javascript": "cf2abf0c5be326cb922a70f8163f91079c4d9aa8655c60ead89ad545c9de2e92",
+   "javascriptLength": 2
+  },
+  {
+   "query": "にほん",
+   "vim": "017b523fcce26672e05489b950e12199cdd1f69a6c1e1f294d63a705231b4015",
+   "vimLength": 31,
+   "javascript": "b1bb8f82f260813ba710a7c0ad37fad4a60a8337ae0335298076f5ed60b7254e",
+   "javascriptLength": 23
+  },
+  {
+   "query": "カタカナ",
+   "vim": "68d531cb87cf3226383d08e8dee1c79a019e19ad7e5921082abffd18cce5df64",
+   "vimLength": 17,
+   "javascript": "96e5304e87c4eaad9574d60bf280414697bcee81fa22ff34bd1c33bd049c4b72",
+   "javascriptLength": 13
+  },
+  {
+   "query": "ﾆﾎﾝ",
+   "vim": "67dc8429f6bbb0713b33e655aa5c2e508606bbc9da79de8a1861246c51f489a6",
+   "vimLength": 15,
+   "javascript": "473ecb5bf4f1f9524ee2500f075425044ac4e7572ce5143f8efb7a522dd0c74b",
+   "javascriptLength": 11
+  },
+  {
+   "query": "ｎｉｈｏｎ",
+   "vim": "73bc59bff96bb4c2bf85a04c433ab15ed0f0c922c57ce66eac12fd83eedfe180",
+   "vimLength": 19,
+   "javascript": "847e54cd08b1ebb4dac85a5c72d4d0655b127d75dba4e183f50df006777d345d",
+   "javascriptLength": 15
+  },
+  {
+   "query": "100",
+   "vim": "0b7ca4eb70c20e13a94156a0e70866000d1616f725f0a3cd0a93584356f3fe08",
+   "vimLength": 55,
+   "javascript": "47c3780e85917401802e18a7bc183513205e83aa5944042f11bc330a99819bc1",
+   "javascriptLength": 46
+  },
+  {
+   "query": "x-y",
+   "vim": "3768a393249cd943e2f67220ea79fd76162504da632e339fa485ccb47457ee53",
+   "vimLength": 64,
+   "javascript": "751f7c73eacbbd84dc8c2b62aaaf3a5911e68743b24b1a0806a82e3d5c4219f7",
+   "javascriptLength": 53
+  },
+  {
+   "query": "(paren)",
+   "vim": "08bf74dd773959ed2a15c0c98c41e959bb521882b45bd5996abed8fb751fb1fa",
+   "vimLength": 47,
+   "javascript": "a4bc10d4f8c2f296fce02ec0c601feb4e0db0806fcc941b7224ac938827c84bb",
+   "javascriptLength": 44
+  },
+  {
+   "query": "[z",
+   "vim": "dbb3ed472d364a73a6847775e9c38c6d8127e493205a60bbb47c99779446f330",
+   "vimLength": 82,
+   "javascript": "f26afe78a53f8e5a4a82ab37df642e8fc44f7d01c3e47fc966c408781b6db3e7",
+   "javascriptLength": 70
+  }
+ ],
+ "romanTable": [
+  [
+   "qq",
+   "っ",
+   1
+  ],
+  [
+   "kz",
+   "かん",
+   0
+  ],
+  [
+   "ka",
+   "か"
+  ],
+  [
+   "ki",
+   "き"
+  ],
+  [
+   "sz",
+   "さん"
+  ],
+  [
+   "n",
+   "ん"
+  ],
+  [
+   "na",
+   "な"
+  ],
+  [
+   "no",
+   "の"
+  ]
+ ],
+ "custom": [
+  {
+   "query": "a",
+   "vim": "696424e88531c09894bb61489641764f2713a430abc96b6eca4012be1e31bee3",
+   "vimLength": 2628,
+   "javascript": "eac5e2fb31608c007827ccecbeca233e351eb0f207caf4873744f79c88fa965c",
+   "javascriptLength": 2155
+  },
+  {
+   "query": "k",
+   "vim": "bc57620d84b46c64557b664837f536bb1269735aca5ff5c79a8730bf5d5d1257",
+   "vimLength": 3193,
+   "javascript": "53b334932c9691a2970360db82d69a5ad0f5d9473a42a3bd3215769f8fb4f9f0",
+   "javascriptLength": 2844
+  },
+  {
+   "query": "n",
+   "vim": "577e1091c38f2f30385be067a7076c155280b0ec9c9c3769c052a4c8559984b7",
+   "vimLength": 1630,
+   "javascript": "a705ba158363f838ea2e1f9a2a0b8b5f26fe79f9e276c5a78d4845f8119695ae",
+   "javascriptLength": 1396
+  },
+  {
+   "query": "ka",
+   "vim": "c213838fc0582749ef3e51bfef9ad79bfa622520771ae22f14800220b8dd2786",
+   "vimLength": 1381,
+   "javascript": "96f0cbe32ecc4e92700c9fb6312d557a95f176ea79cbd7df33b7501f573a7e2a",
+   "javascriptLength": 1269
+  },
+  {
+   "query": "ky",
+   "vim": "6122ef66f6080682c975384c9144a82985e8fd112d102982c2c3481ef76cc8df",
+   "vimLength": 33,
+   "javascript": "ae13047e8254351913bd869d1e57df8be459341753368218d1ad6cace7592ca6",
+   "javascriptLength": 25
+  },
+  {
+   "query": "sh",
+   "vim": "ac10aa10b40ec1621b79f593ec0c76f7da6487eb7815e33400213e5884ad0dc2",
+   "vimLength": 514,
+   "javascript": "3c1381b16d8a61efaad7fd66ac082b949d3b49ca190e07689fea8e1f2d68bf1b",
+   "javascriptLength": 417
+  },
+  {
+   "query": "tsu",
+   "vim": "57c8586122fbe9d1d6180cd1ade0d87d2449b7e4e6e7c05d8bff12191d93a0f1",
+   "vimLength": 15,
+   "javascript": "6a1a656caff2898221fa03ecaa777dad4b3f6a8565807b5f3d0b40a4308f1a84",
+   "javascriptLength": 11
+  },
+  {
+   "query": "nihongo",
+   "vim": "6a8e4dac798ba700bfa38ee4ec5a7a2718614841ea71345c90af778701617d60",
+   "vimLength": 50,
+   "javascript": "a87b303314f956ad0bf48b5fa586f071c1a03827c32532576bed3aaef9b751e2",
+   "javascriptLength": 43
+  },
+  {
+   "query": "nihon",
+   "vim": "8ab7592b4774a4c445afa474f42f27eecc43cee599324a6b5c89f60bb3b13486",
+   "vimLength": 59,
+   "javascript": "e17c437258b1ee8213df263e97cfe6be13ef04b1c01318b20f925bad9b0bb11b",
+   "javascriptLength": 51
+  },
+  {
+   "query": "nihonn",
+   "vim": "7f6b5d400042a3886cb072cdd7b3ee41d324b5e9a5dad8dc55b2cbc3cdc79123",
+   "vimLength": 57,
+   "javascript": "f3434f263b0f06a4121390ac9d3490381170058e39ccbe539d13e1dfbc0c9612",
+   "javascriptLength": 50
+  },
+  {
+   "query": "kensaku",
+   "vim": "941dde6ab6cc624203d6a9f5139547db3f9cfd5393c137df3b49149fb2cb3aaf",
+   "vimLength": 49,
+   "javascript": "ddb541e3e029d8521f168760daffa0884104423db8147be8e55689c1207ce901",
+   "javascriptLength": 41
+  },
+  {
+   "query": "kanji",
+   "vim": "a0fbc4ca068ab5ad4f2177acb7253dd777b75c12444862086048994ca606dd1c",
+   "vimLength": 37,
+   "javascript": "6a367ff223ab99c03c2ce95053ec5d72a47dfa2de43a26cd048ac76829da9aee",
+   "javascriptLength": 30
+  },
+  {
+   "query": "katakana",
+   "vim": "4c366c476a292328582edfcdc7654b2abd4bd395a7f797a2a24563e98cca510f",
+   "vimLength": 46,
+   "javascript": "eb2a90eb326e8918df7c2bb98f345bd269654b61ce79bcf572c973785b3c3dff",
+   "javascriptLength": 39
+  },
+  {
+   "query": "hiragana",
+   "vim": "ad0dca8bb55a38cf41c47daa5044d36b1cf97d575e0e4ccbd9f1828f41ff0221",
+   "vimLength": 37,
+   "javascript": "f0e75aebe510ab1377e7578710ba57740e3e949fa52f6014161ac877e456cb81",
+   "javascriptLength": 31
+  },
+  {
+   "query": "tokyo",
+   "vim": "5fbf109878d86219c7cce645f3f51173761358ff6b9edef224d69ec06519149b",
+   "vimLength": 26,
+   "javascript": "da81bdb6b790e4330354e2fa9ccb109f62f77278b04ef7dd3f91b243d202dfc5",
+   "javascriptLength": 21
+  },
+  {
+   "query": "toukyou",
+   "vim": "d8e8fc183b94db27f7cbe82739ac368d345ef537d83e04da9a81cdedfa7c1c1f",
+   "vimLength": 23,
+   "javascript": "bb75d50f26209d7dab9a9966ef5c8e9a1eeabab0034bc548428e6804d05ac38f",
+   "javascriptLength": 19
+  },
+  {
+   "query": "kyouto",
+   "vim": "b7aa5d869462b21b3328be6ef59a18c7d0fd3873d0459269f288aa892ff77098",
+   "vimLength": 21,
+   "javascript": "d4622bebc472da3f8561ccc2760240be1edbffc6f563b30fcf7b377f87030f66",
+   "javascriptLength": 17
+  },
+  {
+   "query": "osaka",
+   "vim": "ba7d01f79571257dd17a4d1d6433708231300fe592384f623dbc538ab6eadb18",
+   "vimLength": 31,
+   "javascript": "d7bbb2ce9a4add3cee96b6c95490a2c434dfb0078fd77976e7e324d6b0d45238",
+   "javascriptLength": 25
+  },
+  {
+   "query": "oosaka",
+   "vim": "6a4054caf37c8b144a14e574c2a8c14b185bc05fdb396f0d59dd8d271ce3d009",
+   "vimLength": 33,
+   "javascript": "9323faeb3cad0639710d5e121c7120a9b532f988bef17dc03d50bec4333fb9c3",
+   "javascriptLength": 27
+  },
+  {
+   "query": "gakkou",
+   "vim": "171346850ef56bb58bca1c54297bce1f6b7926932099f2072ce0f92e9c7e824c",
+   "vimLength": 21,
+   "javascript": "b0ed80c1af1f87b254bd9748bc4e77166e2d9f2d4690e6878baca3a8fcfec8d5",
+   "javascriptLength": 17
+  },
+  {
+   "query": "kitte",
+   "vim": "81441ab6df2d7ef6ed30a07019821f096c10137a98a375705d8d2688f6c5c0bc",
+   "vimLength": 47,
+   "javascript": "20d8e340c12bee172fe6ae34ade4b25443c2945024fb03f951142effcee84338",
+   "javascriptLength": 38
+  },
+  {
+   "query": "matcha",
+   "vim": "52f4212542039feec3e0bce9a1f60917e88141b7b80afc0a90e8961e8ef37405",
+   "vimLength": 21,
+   "javascript": "43eb1e81cc2f19865ddfb7ac8e2213b9d38b90d25ab4ca2b21d58d77876f9d47",
+   "javascriptLength": 17
+  },
+  {
+   "query": "shinkansen",
+   "vim": "1c967181661dbfaef532167d8f9178e6584598f624a351f9d16d9e05bf4b1a80",
+   "vimLength": 70,
+   "javascript": "13fe3aa0d4b7f6cc5e7ff419b6239cf626366498f3754c65ad88124c102364ee",
+   "javascriptLength": 62
+  },
+  {
+   "query": "konnichiha",
+   "vim": "06a0254533b5363d034aef443b4636e3c9fdb04710a63359df96434d320776b2",
+   "vimLength": 64,
+   "javascript": "38d0fe741588fbfadc5a45be6af5368b602a216e056df6c5d15f6e6379fa12ca",
+   "javascriptLength": 56
+  },
+  {
+   "query": "arigatou",
+   "vim": "88fa8392a83e0b1ef95e36c7799296f32d11e28d82eba5fb184969591d4700e8",
+   "vimLength": 25,
+   "javascript": "2dd4bf2656f834b79117d6fa4e367fcf27c73293ac9eb4198b32e8c3428978fa",
+   "javascriptLength": 21
+  },
+  {
+   "query": "sayounara",
+   "vim": "84c3dd17ae57ef6527bd7830b78f3676bbd6dd259b46f70236e4d41a7a8197b9",
+   "vimLength": 47,
+   "javascript": "894d44373682adbf17a108a4e9506877e2c1ed6847194463a9648edbb4311654",
+   "javascriptLength": 39
+  },
+  {
+   "query": "ohayou",
+   "vim": "3bef73a1e06eb8be9f2596a0b62e55061073f6b4b92620427563762fefdcc77f",
+   "vimLength": 21,
+   "javascript": "05d0f548a81445740f2bf13c6b715e05858a0b25ac40a77c9af466eb9f46f947",
+   "javascriptLength": 17
+  },
+  {
+   "query": "tenki",
+   "vim": "81fb14242ce6ff28398081209c2b0ceff44712810fb224d87ca733b13c693a13",
+   "vimLength": 36,
+   "javascript": "8814528be7574d2223befcbbc3a2eabc7876c7d0f486a65328ef1eace217b93b",
+   "javascriptLength": 28
+  },
+  {
+   "query": "kaigi",
+   "vim": "5e555120e35db0a5375c9937683abbc1f733343b8eebd7a2416b07655a8e8748",
+   "vimLength": 37,
+   "javascript": "30997ca8e89e6d59d780e3114ed4e2bcb8f6f1219cf8280bfffd0e97269c8dba",
+   "javascriptLength": 30
+  },
+  {
+   "query": "shiryou",
+   "vim": "66524b7a1e7b2ca3415c566b6b2e71df6c26f9b2044bfde73a1599fe189dfc01",
+   "vimLength": 23,
+   "javascript": "e32e75bacc33965723b8e34cdb86e6ab42614a9073a4c0936e69611fb367f50b",
+   "javascriptLength": 19
+  },
+  {
+   "query": "sakura",
+   "vim": "ccccc1b84ccb8474950e17141fc57fba7d36e5823021ad4947ac34f30d93795c",
+   "vimLength": 21,
+   "javascript": "49310ba4a3793ada3cc6516933dfc924c78a92bd2eeba4ad487dc290d81c38d8",
+   "javascriptLength": 17
+  },
+  {
+   "query": "fuji",
+   "vim": "48b46c4e25d7f0cb4fe0f43b529e2b6daf923661e345a6ff7c7c4a6ca58c0acc",
+   "vimLength": 59,
+   "javascript": "057d4da0e634943c578fd9d19c2ac8a2967650f122a0703455b4d652440c9ca9",
+   "javascriptLength": 48
+  },
+  {
+   "query": "yama",
+   "vim": "ef1921881d4eabef5f19e5d5f2e05dde575e71202449251757f1fcb3256e6ca8",
+   "vimLength": 22,
+   "javascript": "668de440a58ae81670a7f80d276363b38b0a682adca4b2c48f2ae63cc1bec84f",
+   "javascriptLength": 17
+  },
+  {
+   "query": "kawa",
+   "vim": "5da40855a3d1f9f13012eb180b8640a5975444e86f1899a1e48d9024586fbbb8",
+   "vimLength": 41,
+   "javascript": "b90c5c3a03696360a2fc8ea9aeb1585981c64f6809e8ae8a16d45aecc9f21750",
+   "javascriptLength": 32
+  },
+  {
+   "query": "umi",
+   "vim": "cd5112a5bafad3d39a38ab8a1d1b18e8612ecf2d320cd44b552aec255af44cb7",
+   "vimLength": 15,
+   "javascript": "7b49a4f95c6dd7aa352eb64a0462789cbeccae76a0c0f9906dc95442840fd90a",
+   "javascriptLength": 11
+  },
+  {
+   "query": "denwa",
+   "vim": "6ffa688d40ae985825bd8596bba775d29df16da8b3d312a3cbd825d600d278e3",
+   "vimLength": 39,
+   "javascript": "ec88058f2599b3bf9d28e11bfac07e94aa92465127b30505d2a4723546676b04",
+   "javascriptLength": 31
+  },
+  {
+   "query": "bangou",
+   "vim": "cd41acede379ff4728ac50ab81c7a83ff44fccf92c69c2de7593479760f9c7e0",
+   "vimLength": 44,
+   "javascript": "ddfaac22ef061ca1c50c6ed35e7823d231131e8f030d4e2be9cfa7138662bdc3",
+   "javascriptLength": 36
+  },
+  {
+   "query": "jikan",
+   "vim": "e7d82d36f6922c99acefe87f13bde2856740c3744238131614ea0f0e678c05c8",
+   "vimLength": 48,
+   "javascript": "dd5972e75dc0a2ce934bf9d65429afebb11cbe2cf992e3dc494a08a5cc15c482",
+   "javascriptLength": 40
+  },
+  {
+   "query": "benkyou",
+   "vim": "c90306f7dc382ceb1721ca4294d7454f34e28cef30270ad9b5a279da5f74cabb",
+   "vimLength": 49,
+   "javascript": "b7c28b8ebfa7b1880bf6dc78b4688e0208e8e1194cb90673244885a5beac8cc1",
+   "javascriptLength": 41
+  },
+  {
+   "query": "Nihongo",
+   "vim": "1035835286dd54d9bdcd4b98f4bf11d7b3924b84a5c38608e1f2d9ea42a7b1f3",
+   "vimLength": 50,
+   "javascript": "f386d07a22fb0daf962fc4182f7c90419bb79e5f11cb38694829e02012847c98",
+   "javascriptLength": 43
+  },
+  {
+   "query": "NihonGo",
+   "vim": "ddac54af391d9357829706adf6e0825dd1c358a0ecb0293cd01e98d8b8eede2f",
+   "vimLength": 568,
+   "javascript": "4e44fe54775e16057802e5eefb5a857102e87c4c9924b4c7b1933e01b74b046d",
+   "javascriptLength": 461
+  },
+  {
+   "query": "KENSAKU",
+   "vim": "2bf39e4f3519ae55aa00ba02bd9d0b6329d886b4759b97ac7b4395a8fb57fe98",
+   "vimLength": 51,
+   "javascript": "ca2f7ad65ecf4b5f7b506a8db113733b514f2ebc8789cf8f496c581d1afc6b9d",
+   "javascriptLength": 43
+  },
+  {
+   "query": "HogeFuga",
+   "vim": "c17969480cd3cd3307b3debcbca62f1ff69d96e56539ea8d4f10d04292432912",
+   "vimLength": 44,
+   "javascript": "9813336e0359ba06120d2a4392f65ac43e952f2ce4b17115d77f8ccdea8d76da",
+   "javascriptLength": 36
+  },
+  {
+   "query": "a b",
+   "vim": "c4d1f2508c42857993fbf1246ee0ac129f49c8eb3dcdc658a5a2d5c2ef86b27a",
+   "vimLength": 5008,
+   "javascript": "48ee028efa45979615d8e9c4cd135282cbe74fcae6c0807a37102a7156fce841",
+   "javascriptLength": 4107
+  },
+  {
+   "query": "foo.bar",
+   "vim": "bf0e0eca4a61814493484416d8e808265cb34243411052a292ace8176f72d7dd",
+   "vimLength": 24,
+   "javascript": "91cd1d9f769298aec5cb5cdd993454c05d75a221748f7f35aa779d457442df0e",
+   "javascriptLength": 20
+  },
+  {
+   "query": "c++",
+   "vim": "aa9e78d51200d249b10f0ab2bcd54d728b0ec7d4df6d7267104e8515b613e070",
+   "vimLength": 25,
+   "javascript": "5bdff9872af36c0819a38a44d82617e191210b1309a314d2a6410017f10ea217",
+   "javascriptLength": 23
+  },
+  {
+   "query": "日本",
+   "vim": "d338fade885547b851c2577e17cef7c52468438a3eefe8fbe3228c6af5531892",
+   "vimLength": 4,
+   "javascript": "cf2abf0c5be326cb922a70f8163f91079c4d9aa8655c60ead89ad545c9de2e92",
+   "javascriptLength": 2
+  },
+  {
+   "query": "にほん",
+   "vim": "017b523fcce26672e05489b950e12199cdd1f69a6c1e1f294d63a705231b4015",
+   "vimLength": 31,
+   "javascript": "b1bb8f82f260813ba710a7c0ad37fad4a60a8337ae0335298076f5ed60b7254e",
+   "javascriptLength": 23
+  },
+  {
+   "query": "カタカナ",
+   "vim": "68d531cb87cf3226383d08e8dee1c79a019e19ad7e5921082abffd18cce5df64",
+   "vimLength": 17,
+   "javascript": "96e5304e87c4eaad9574d60bf280414697bcee81fa22ff34bd1c33bd049c4b72",
+   "javascriptLength": 13
+  },
+  {
+   "query": "ﾆﾎﾝ",
+   "vim": "67dc8429f6bbb0713b33e655aa5c2e508606bbc9da79de8a1861246c51f489a6",
+   "vimLength": 15,
+   "javascript": "473ecb5bf4f1f9524ee2500f075425044ac4e7572ce5143f8efb7a522dd0c74b",
+   "javascriptLength": 11
+  },
+  {
+   "query": "ｎｉｈｏｎ",
+   "vim": "73bc59bff96bb4c2bf85a04c433ab15ed0f0c922c57ce66eac12fd83eedfe180",
+   "vimLength": 19,
+   "javascript": "847e54cd08b1ebb4dac85a5c72d4d0655b127d75dba4e183f50df006777d345d",
+   "javascriptLength": 15
+  },
+  {
+   "query": "100",
+   "vim": "0b7ca4eb70c20e13a94156a0e70866000d1616f725f0a3cd0a93584356f3fe08",
+   "vimLength": 55,
+   "javascript": "47c3780e85917401802e18a7bc183513205e83aa5944042f11bc330a99819bc1",
+   "javascriptLength": 46
+  },
+  {
+   "query": "x-y",
+   "vim": "b84d1ed32384f70e52d3e1a701af82a5c1b1deaf552b7b58a88c3637c9a80408",
+   "vimLength": 15,
+   "javascript": "80fc88f8dc06cfe35fa791b2f85fbc5deb6e407f2f1799bf47730082e59845e8",
+   "javascriptLength": 12
+  },
+  {
+   "query": "(paren)",
+   "vim": "9594e6f0dccac2bbc064b451a816cd8c9ed06328b8ba245aaf9ee3e316354c8e",
+   "vimLength": 40,
+   "javascript": "88c4ecb5c19741ef7273ea4afde65386f8b70c76385075677b3a93527ef01681",
+   "javascriptLength": 37
+  },
+  {
+   "query": "[z",
+   "vim": "deebcdd5e6d1fb8678fbd47d4bbf5e34244154b25f0163ca84956eec2611d2dc",
+   "vimLength": 14,
+   "javascript": "f6070271a14d94c55778cb573bb2efeda260a01ac42a09e100484f99488b71b7",
+   "javascriptLength": 10
+  }
+ ],
+ "alphabet": "abcdefghijklmnopqrstuvwxyz-~.,/[]'",
+ "romajiDigest": "ba361a08f1b38acef7f12f7d85097fae5aecf1fd5e666cb955b1397f3be740aa"
+}
