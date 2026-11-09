@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     goda-vim = {
-      url = "github:Shougo/goda.vim/v0.4.3";
+      url = "github:Shougo/goda.vim/v0.7.2";
       flake = false;
     };
   };
