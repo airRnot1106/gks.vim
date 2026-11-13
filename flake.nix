@@ -33,18 +33,18 @@
           hash = "sha256-+jrCQLM1iSIvzUCRDe0sFpc3TgGvFNwrtd32g6oumho=";
         };
 
-        gks = pkgs.buildGo126Module {
-          pname = "gks";
+        goda-ks = pkgs.buildGo126Module {
+          pname = "goda-ks";
           inherit version;
           src = ./.;
           vendorHash = "sha256-c7GwOs1wzh21OXmzONbaCCXbwcK95LbWmcS+x6qdE9M=";
           subPackages = [ "." ];
           doCheck = false;
           postInstall = ''
-            mv $out/bin/gks.vim $out/bin/gks
-            install -Dm444 ${dictionary} $out/share/gks/migemo-compact-dict
+            mv $out/bin/goda-ks.vim $out/bin/goda-ks
+            install -Dm444 ${dictionary} $out/share/goda-ks/migemo-compact-dict
           '';
-          meta.mainProgram = "gks";
+          meta.mainProgram = "goda-ks";
         };
 
         goda-vim-plugin = pkgs.vimUtils.buildVimPlugin {
@@ -54,7 +54,7 @@
         };
 
         vim-plugin = pkgs.vimUtils.buildVimPlugin {
-          pname = "gks.vim";
+          pname = "goda-ks.vim";
           inherit version;
           src = pkgs.lib.fileset.toSource {
             root = ./.;
@@ -67,7 +67,7 @@
           };
           dependencies = [ goda-vim-plugin ];
           preInstall = ''
-            cp -r ${gks}/bin ${gks}/share .
+            cp -r ${goda-ks}/bin ${goda-ks}/share .
           '';
         };
 
@@ -83,7 +83,7 @@
         {
           inherit (built)
             dictionary
-            gks
+            goda-ks
             vim-plugin
             default
             ;
@@ -97,12 +97,12 @@
           built = mkPackages pkgs;
           goTest =
             name: command:
-            built.gks.overrideAttrs {
-              pname = "gks-${name}";
+            built.goda-ks.overrideAttrs {
+              pname = "goda-ks-${name}";
               doCheck = true;
               checkPhase = ''
                 runHook preCheck
-                export GKS_TEST_DICT=${built.dictionary}
+                export GODA_KS_TEST_DICT=${built.dictionary}
                 ${command}
                 runHook postCheck
               '';
@@ -120,8 +120,8 @@
                 pkgs.neovim
               ]
             }:$PATH
-            export GKS_E2E_GODA=${goda-vim}
-            export GKS_E2E_STRICT=1
+            export GODA_KS_E2E_GODA=${goda-vim}
+            export GODA_KS_E2E_STRICT=1
             go test -v -count=1 ./e2e
           '';
         }

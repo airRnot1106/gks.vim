@@ -1,8 +1,8 @@
-" Runs the plugin in a real editor and writes what it saw to $GKS_E2E_OUT.
+" Runs the plugin in a real editor and writes what it saw to $GODA_KS_E2E_OUT.
 set encoding=utf-8
-let &runtimepath = join(map([$GKS_E2E_PLUGIN, $GKS_E2E_GODA], {_, dir -> escape(dir, ',')}) + [&runtimepath], ',')
-let g:gks_binary = $GKS_E2E_BINARY
-let g:kensaku_dictionary_cache = $GKS_E2E_DICT
+let &runtimepath = join(map([$GODA_KS_E2E_PLUGIN, $GODA_KS_E2E_GODA], {_, dir -> escape(dir, ',')}) + [&runtimepath], ',')
+let g:goda_ks#binary = $GODA_KS_E2E_BINARY
+let g:kensaku_dictionary_cache = $GODA_KS_E2E_DICT
 runtime plugin/kensaku.vim
 
 let s:result = {}
@@ -50,5 +50,5 @@ catch
   let s:result.error = v:exception
 endtry
 
-call writefile([json_encode(s:result)], $GKS_E2E_OUT)
+call writefile([json_encode(s:result)], $GODA_KS_E2E_OUT)
 qall!

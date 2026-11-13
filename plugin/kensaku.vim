@@ -11,7 +11,7 @@ endfunction
 
 function! s:dictionary() abort
   for dir in [s:root, s:root . '/result']
-    let path = dir . '/share/gks/migemo-compact-dict'
+    let path = dir . '/share/goda-ks/migemo-compact-dict'
     if filereadable(path)
       return path
     endif

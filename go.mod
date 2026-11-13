@@ -1,4 +1,4 @@
-module github.com/airRnot1106/gks.vim
+module github.com/airRnot1106/goda-ks.vim
 
 go 1.26
 

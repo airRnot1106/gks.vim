@@ -1,4 +1,4 @@
-// Package kensaku is the gks plugin. It answers migemo queries for
+// Package kensaku is the goda-ks plugin. It answers migemo queries for
 // autoload/kensaku.vim.
 package kensaku
 
@@ -8,7 +8,7 @@ import (
 
 	"github.com/Shougo/goda.vim/sdk"
 
-	"github.com/airRnot1106/gks.vim/migemo"
+	"github.com/airRnot1106/goda-ks.vim/migemo"
 )
 
 // scriptVersion matches the version autoload/kensaku.vim passes to goda#register.
@@ -25,7 +25,7 @@ func New() *Kensaku {
 }
 
 // Name implements sdk.Plugin.
-func (k *Kensaku) Name() string { return "gks" }
+func (k *Kensaku) Name() string { return "ks" }
 
 // ScriptVersion implements sdk.ScriptVersioner.
 func (k *Kensaku) ScriptVersion() int { return scriptVersion }

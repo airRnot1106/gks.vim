@@ -24,7 +24,7 @@ var editors = []struct {
 
 func goda(t *testing.T, root string) string {
 	t.Helper()
-	if dir := os.Getenv("GKS_E2E_GODA"); dir != "" {
+	if dir := os.Getenv("GODA_KS_E2E_GODA"); dir != "" {
 		return dir
 	}
 	list := exec.Command("go", "list", "-m", "-f", "{{.Dir}}", "github.com/Shougo/goda.vim")
@@ -38,7 +38,7 @@ func goda(t *testing.T, root string) string {
 
 func dictionary(t *testing.T) string {
 	t.Helper()
-	path := os.Getenv("GKS_TEST_DICT")
+	path := os.Getenv("GODA_KS_TEST_DICT")
 	if path == "" {
 		home, _ := os.UserHomeDir()
 		path = filepath.Join(home, ".cache/kensaku.vim/migemo-compact-dict")
@@ -55,7 +55,7 @@ func TestEditors(t *testing.T) {
 		t.Fatal(err)
 	}
 	dir := t.TempDir()
-	binary := filepath.Join(dir, "gks")
+	binary := filepath.Join(dir, "goda-ks")
 	build := exec.Command("go", "build", "-o", binary, ".")
 	build.Dir = root
 	if out, err := build.CombinedOutput(); err != nil {
@@ -64,7 +64,7 @@ func TestEditors(t *testing.T) {
 	for _, editor := range editors {
 		t.Run(editor.name, func(t *testing.T) {
 			if _, err := exec.LookPath(editor.command[0]); err != nil {
-				if os.Getenv("GKS_E2E_STRICT") != "" {
+				if os.Getenv("GODA_KS_E2E_STRICT") != "" {
 					t.Fatal(err)
 				}
 				t.Skip(err)
@@ -75,11 +75,11 @@ func TestEditors(t *testing.T) {
 			cmd := exec.CommandContext(ctx, editor.command[0], append(editor.command[1:], "e2e/testdata/driver.vim")...)
 			cmd.Dir = root
 			cmd.Env = append(os.Environ(),
-				"GKS_E2E_PLUGIN="+root,
-				"GKS_E2E_GODA="+goda(t, root),
-				"GKS_E2E_BINARY="+binary,
-				"GKS_E2E_DICT="+dictionary(t),
-				"GKS_E2E_OUT="+out,
+				"GODA_KS_E2E_PLUGIN="+root,
+				"GODA_KS_E2E_GODA="+goda(t, root),
+				"GODA_KS_E2E_BINARY="+binary,
+				"GODA_KS_E2E_DICT="+dictionary(t),
+				"GODA_KS_E2E_OUT="+out,
 			)
 			if output, err := cmd.CombinedOutput(); err != nil {
 				t.Fatalf("%v\n%s", err, output)

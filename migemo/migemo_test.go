@@ -12,11 +12,11 @@ import (
 	"testing"
 )
 
-// The dictionary is GPL, so it is not in this repository. GKS_TEST_DICT
+// The dictionary is GPL, so it is not in this repository. GODA_KS_TEST_DICT
 // names it; nix flake check sets it.
 func dictionary(t testing.TB) *Dictionary {
 	t.Helper()
-	path := os.Getenv("GKS_TEST_DICT")
+	path := os.Getenv("GODA_KS_TEST_DICT")
 	if path == "" {
 		home, _ := os.UserHomeDir()
 		path = filepath.Join(home, ".cache/kensaku.vim/migemo-compact-dict")
@@ -188,7 +188,7 @@ func TestParseRxop(t *testing.T) {
 }
 
 func BenchmarkParseDictionary(b *testing.B) {
-	path := os.Getenv("GKS_TEST_DICT")
+	path := os.Getenv("GODA_KS_TEST_DICT")
 	if path == "" {
 		home, _ := os.UserHomeDir()
 		path = filepath.Join(home, ".cache/kensaku.vim/migemo-compact-dict")

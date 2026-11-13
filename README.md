@@ -1,8 +1,8 @@
-# gks.vim
+# goda-ks.vim
 
 Search Japanese text in Vim and Neovim by typing romaji.
 
-gks.vim is a port of [kensaku.vim](https://github.com/lambdalisue/kensaku.vim) from [denops.vim](https://github.com/vim-denops/denops.vim) to [goda.vim](https://github.com/Shougo/goda.vim). It defines the same `kensaku#query()`, `kensaku#query_async()` and `kensaku#set_roman_table()`, and needs no Deno. [kensaku-search.vim](https://github.com/lambdalisue/kensaku-search.vim) works with it unchanged.
+goda-ks.vim is a port of [kensaku.vim](https://github.com/lambdalisue/kensaku.vim) from [denops.vim](https://github.com/vim-denops/denops.vim) to [goda.vim](https://github.com/Shougo/goda.vim). It defines the same `kensaku#query()`, `kensaku#query_async()` and `kensaku#set_roman_table()`, and needs no Deno. [kensaku-search.vim](https://github.com/lambdalisue/kensaku-search.vim) works with it unchanged.
 
 ## Features
 
@@ -23,13 +23,13 @@ Windows is not supported.
 
 ### Using a plugin manager
 
-Install both goda.vim and gks.vim, then run `nix build` inside the plugin directory. The plugin expects the binary at `result/bin/gks` and the dictionary at `result/share/gks/migemo-compact-dict`.
+Install both goda.vim and goda-ks.vim, then run `nix build` inside the plugin directory. The plugin expects the binary at `result/bin/goda-ks` and the dictionary at `result/share/goda-ks/migemo-compact-dict`.
 
 With [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
 {
-  'airRnot1106/gks.vim',
+  'airRnot1106/goda-ks.vim',
   dependencies = { 'Shougo/goda.vim' },
   build = 'nix build',
 }
@@ -39,7 +39,7 @@ With [vim-plug](https://github.com/junegunn/vim-plug):
 
 ```vim
 Plug 'Shougo/goda.vim'
-Plug 'airRnot1106/gks.vim', { 'do': 'nix build' }
+Plug 'airRnot1106/goda-ks.vim', { 'do': 'nix build' }
 ```
 
 ### Without Nix
@@ -47,14 +47,14 @@ Plug 'airRnot1106/gks.vim', { 'do': 'nix build' }
 Build the binary with Go instead. Run this inside the plugin directory:
 
 ```sh
-go build -o bin/gks .
+go build -o bin/goda-ks .
 ```
 
-The plugin finds the binary at `bin/gks`. The first query downloads the dictionary to `~/.cache/kensaku.vim/migemo-compact-dict`, as kensaku.vim does, and reuses a file it already downloaded.
+The plugin finds the binary at `bin/goda-ks`. The first query downloads the dictionary to `~/.cache/kensaku.vim/migemo-compact-dict`, as kensaku.vim does, and reuses a file it already downloaded.
 
 ### Using Nix Flakes
 
-The default package provides the Vim plugin along with the binary and the dictionary, and handles the goda.vim dependency automatically. The flake also outputs `gks` (the binary), `dictionary`, and `goda-vim`.
+The default package provides the Vim plugin along with the binary and the dictionary, and handles the goda.vim dependency automatically. The flake also outputs `goda-ks` (the binary), `dictionary`, and `goda-vim`.
 
 ## Usage
 
@@ -82,17 +82,17 @@ m, err := loader.Migemo()
 pattern, err := m.Query("nihongo", migemo.JavaScript)
 ```
 
-See `:help gks`.
+See `:help goda-ks`.
 
 ## Options
 
 | Variable | Default | Description |
 | --- | --- | --- |
-| `g:gks_binary` | Unset | Path to the binary. Overrides `bin/gks` and `result/bin/gks`. |
+| `g:goda_ks#binary` | Unset | Path to the binary. Overrides `bin/goda-ks` and `result/bin/goda-ks`. |
 | `g:kensaku_dictionary_url` | The v0.2 release of [migemo-compact-dict-latest](https://github.com/oguna/migemo-compact-dict-latest) | URL of the dictionary. |
 | `g:kensaku_dictionary_cache` | The file of the Nix build, or `~/.cache/kensaku.vim/migemo-compact-dict` | Path of the dictionary. |
 
-If a query fails, check `goda#log('gks')`.
+If a query fails, check `goda#log('ks')`.
 
 ## Differences from kensaku.vim
 
@@ -107,7 +107,7 @@ go test ./...
 nix flake check
 ```
 
-`nix flake check` runs the Go tests, including the golden tests, and the E2E test in real Vim and Neovim. Outside Nix, the tests read the dictionary from `$GKS_TEST_DICT` or `~/.cache/kensaku.vim/migemo-compact-dict`, and skip without it.
+`nix flake check` runs the Go tests, including the golden tests, and the E2E test in real Vim and Neovim. Outside Nix, the tests read the dictionary from `$GODA_KS_TEST_DICT` or `~/.cache/kensaku.vim/migemo-compact-dict`, and skip without it.
 
 `migemo/testdata/golden.json` holds digests of the patterns of jsmigemo 0.4.8 for 55 queries in two syntaxes, with and without a custom roman table, and of its romaji conversion for every string up to four characters. `migemo/testdata/golden.ts` writes it.
 
